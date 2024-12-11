@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(60, 31, 88);
+    font-size: 24px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+body {
+    background: #d6d6d6;
+    padding: 20px;
+}
+
+.title {
+    background: rgb(74, 37, 110);
+    padding: 35px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.nav {
+    background: rgb(60, 31, 88);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 15px;
+}
+
+.div {
+    background-color: #ebebeb;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 10px;
+}
+
+.container {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background: rgb(255, 255, 255);
+    margin: 0px 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.footer {
+    background: rgb(60, 31, 88);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 24px;
+    position: fixed;
+    align-content: center;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-image {
+    width: 300px;
+    height: 220px;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 480px) {
+    .gallery-image {
+        width: 260px;
+        height: 160px;
+    }
+
+    .nav-link {
+        margin: 0px 10px;
+    }
+}
+
+.login-container {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.login-content {
+    margin: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: white;
+    max-width: 420px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-login input {
+    padding: 8px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+}
+
+.form-login button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(60, 31, 88);
+    color: white;
+    font-weight: 600;
+}
+
